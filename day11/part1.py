@@ -123,7 +123,6 @@ observed_states.append((elevator_location, item_counts))
 game_over = False
 
 while game_over == False:
-#while steps <= 11:
     steps += 1
     print 'Starting step',steps
     states = next_states(states)
